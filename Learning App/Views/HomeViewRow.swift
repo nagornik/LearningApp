@@ -30,7 +30,7 @@ struct HomeViewRow: View {
                     .clipShape(Circle())
                 Spacer()
                 VStack (alignment: .leading, spacing: 10) {
-                    Text("Learn \(title)")
+                    Text(title)
                         .bold()
                     Text(description)
                         .padding(.bottom, 20)
